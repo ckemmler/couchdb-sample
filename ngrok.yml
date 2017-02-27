@@ -1,0 +1,13 @@
+authtoken: 7wnn2QLtboWC8kYDjswpN_78tAbMrTk2nn6EpXafLPb
+region: eu
+web_addr: localhost:4040
+tunnels:
+ frontend:
+   addr: 8100
+   proto: http
+   subdomain: cloudo
+
+ couchdb:
+   addr: 5984
+   proto: http
+   subdomain: couchdb
